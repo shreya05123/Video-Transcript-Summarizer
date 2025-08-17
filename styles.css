@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 350px; /* Maybe a bit wider */
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 15px; /* Added margin */
+    text-align: center;
+}
+
+textarea, #summaryOutput {
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 8px; /* Increased padding */
+    border: 1px solid #ccc; /* Added border */
+}
+
+textarea {
+    height: 150px;
+}
+
+#summaryOutput {
+    background-color: #f9f9f9;
+    min-height: 70px; /* Increased min height */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+button {
+    width: 100%;
+    padding: 10px; /* Increased padding */
+    margin-top: 5px;
+    margin-bottom: 10px; /* Added bottom margin */
+    cursor: pointer;
+    box-sizing: border-box;
+    border: none; /* Basic styling */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 14px; /* Slightly larger font */
+}
+
+#summarizeBtn { /* Style for primary button */
+    background-color: #007bff;
+    color: white;
+}
+
+#downloadPdfBtn { /* Style for secondary button */
+    background-color: #6c757d;
+    color: white;
+}
+
+label { /* Style for labels */
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+hr { /* Style for separator */
+    margin: 15px 0;
+    border: 0;
+    border-top: 1px solid #eee;
+}
